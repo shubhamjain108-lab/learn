@@ -165,3 +165,26 @@ p str === str1
 p str.equal? str1
 
 p str.eql? str1
+
+a = 1
+b = 1.0
+
+p a === b
+p a == b
+
+p a.equal? b
+
+p a.eql? b
+
+p itself
+p self
+
+a = 10
+
+p a.hash
+
+b = 10
+
+p b.hash
+
+
