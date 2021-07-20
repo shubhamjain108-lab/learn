@@ -187,4 +187,6 @@ b = 10
 
 p b.hash
 
+p b.public_methods
 
+p b.private_methods
